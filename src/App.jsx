@@ -1,12 +1,14 @@
-
 import './App.css'
+import Dashboard from './Pages/Dashboard'
+import MyCourses from './Pages/MyCourses'
 
 function App() {
-
-
   return (
-    <div className='text-5xl'>
-      hello bitch!!
+    <div>
+      {/* <MyCourses /> */}
+      <Dashboard/>
+
+
     </div>
   )
 }
